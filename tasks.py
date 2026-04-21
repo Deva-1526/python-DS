@@ -1,4 +1,4 @@
-'''#1st
+#1st
 def  remove_duplicates(arr):
     a=[]
     for i in arr:
@@ -7,18 +7,18 @@ def  remove_duplicates(arr):
     return a
        
 l=[4,4,4,4]
-print(remove_duplicates(l))'''
+print(remove_duplicates(l))
 
-'''#2nd
+#2nd
 def left_rotate_by_one(arr):
     f=arr[0]
     for i in range (len(arr)-1):
         f=arr[1:]+arr[:1]
     return f
 l=[1,2,3,4]
-print(left_rotate_by_one(l))'''
+print(left_rotate_by_one(l))
 
-'''#3rd
+#3rd
 def left_rotate(arr, k):
     f=arr[0]
     for i in range(len(arr)):
@@ -82,7 +82,7 @@ def intersection(arr1,arr2):
     return a
 a=[4,9,5]
 b=[9,4,9,8,4]
-print(intersection(a,b))'''
+print(intersection(a,b))
 
 #10
 def find_min_max(arr):
